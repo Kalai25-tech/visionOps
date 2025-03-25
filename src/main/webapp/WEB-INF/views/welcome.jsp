@@ -73,7 +73,7 @@
                                                     <div class="col-md-7">
                                                         <span>${pageContext.request.userPrincipal.name}</span> <br/>
                                                         <p class="text-muted small">
-                                                            ${pageContext.request.userPrincipal.name}@hkhinfotech.co.in
+                                                            ${pageContext.request.userPrincipal.name}visionops.mylearn.info
                                                         </p>
                                                         <div class="divider"></div>
                                                         <a href="#" class="btn btn-default btn-xs"><i class="fa fa-user-o" aria-hidden="true"></i> Update Profile </a>
@@ -125,16 +125,14 @@
                         <div class="media-body">
                             <hr>
                             <h3><strong>Bio</strong></h3>
-                            <p>DevOps For Product Management and Strategy of Application Delivery at HKH Infotech. Responsible of providing customers with counsel on their DevOps strategies to help them deliver higher quality software and services to market faster.</p>
+                            <p>Driving DevSecOps, cybersecurity, and performance optimization at HKH Infotech. Specializing in secure, scalable, and high-performance application delivery. Helping enterprises accelerate software deployment, enhance security, and achieve operational excellence through proactive monitoring and data-driven strategies.</p>
                             <hr>
-                            <h3><strong>Location</strong></h3>
-                            <p>Earth</p>
+                            <h3><strong>Presence</strong></h3>
+                            <p>Operating Across Industries & Hybrid Cloud Ecosystems</p>
                             <hr>
-                            <h3><strong>Gender</strong></h3>
-                            <p>Unknown</p>
+                            <h3><strong>Focus Area</strong></h3>
+                            <p>DevSecOps</p>
                             <hr>
-                            <h3><strong>Birthday</strong></h3>
-                            <p>January 01 1901</p>
                         </div>
                     </div>
                 </div>
@@ -144,7 +142,7 @@
             <div class="panel panel-default">
                 <div class="panel-body">
                     <span>
-                        <h1 class="panel-title pull-left" style="font-size:30px;">${pageContext.request.userPrincipal.name} &nbsp; <small>${pageContext.request.userPrincipal.name}@hkhinfotech.co.in</small> <i class="fa fa-check text-success" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title=" sharing with you"></i></h1>
+                        <h1 class="panel-title pull-left" style="font-size:30px;">${pageContext.request.userPrincipal.name} &nbsp; <small>${pageContext.request.userPrincipal.name}visionops.mylearn.info</small> <i class="fa fa-check text-success" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title=" sharing with you"></i></h1>
                         <div class="dropdown pull-right">
 
                             <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -165,7 +163,7 @@
 
                       <%
                           Authentication auth = SecurityContextHolder.getContext().getAuthentication();
-                          String username = auth != null ? auth.getName() : "to Hkhinfotech Social Media";
+                          String username = auth != null ? auth.getName() : "to VisionOps";
                       %>
                       <p>Welcome, <%= username %>!</p>
 
