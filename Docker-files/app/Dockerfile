@@ -1,6 +1,6 @@
 FROM maven:3.9.9-eclipse-temurin-21-jammy AS build-stage
 RUN git clone https://github.com/Kalai25-tech/visionOps.git
-RUN cd visionOps/ && git checkout v1  && mvn install
+RUN cd visionOps/ && mvn install
 
 # Runtime stage
 FROM tomcat:10-jdk21
